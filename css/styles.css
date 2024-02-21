@@ -161,9 +161,11 @@ img {
 }
 
 
-.benefits-name-section {
- visibility: hidden;
+.visually-hidden {
+ display: none;
 }
+
+
 
 .benefits-list {
     display: flex;
@@ -197,8 +199,8 @@ img {
 
 .aboutus-item {
     background: #fff;
-    width: calc((100% - 72) / 4);
-    border-radius: 0 0 4px 4px;
+    width: calc((100% - 3 * 24) / 4);
+    border-radius: 0px 0px 4px 4px;
     padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);  
 }
@@ -211,7 +213,7 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .aboutus-list {
@@ -247,6 +249,17 @@ img {
     padding-bottom: 120px;
 }
 
+.portfolio-name_section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -260,16 +273,7 @@ img {
     
 }
 
-.portfolio-name_section {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
-    }
+
 
 .container-name-portfolio {
     padding: 32px 16px;
