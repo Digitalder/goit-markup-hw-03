@@ -57,7 +57,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 75px;
+    margin-right: 76px;
 }
 
 .logo-part {
@@ -116,7 +116,7 @@ img {
 .hero-section {
     background: #2e2f42; 
     padding-top: 188px;
-    padding-bottom: 285px;
+    padding-bottom: 188px;
 }
 
 
@@ -162,15 +162,7 @@ img {
 
 
 .benefits-name-section {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
-
+ visibility: hidden;
 }
 
 .benefits-list {
@@ -179,7 +171,7 @@ img {
 }
 
 .benefits-item {
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 3 * 24) / 4);
 }
 
 .benefits-name {
@@ -200,6 +192,7 @@ img {
 
 .aboutus-section {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .aboutus-item {
@@ -218,13 +211,16 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
     padding-bottom: 72px;
 }
 
 .aboutus-list {
     display: flex;
     gap: 24px;
+}
+
+.container-name-aboutus {
+    padding: 32px 0;
 }
 
 .aboutus-name {
@@ -234,7 +230,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
     margin-bottom: 8px;
 
 }
@@ -248,19 +243,21 @@ img {
 }
 
 .portfolio-section {
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 20px;
+    column-gap: 24px;
+    row-gap: 48px;
     
 }
 
 .portfolio-item {
-    width: calc((100% - 48) / 3);
-    border: 1px solid #e7e9fc;
+    width: calc((100% - 2 * 24) / 3);
+    
 }
 
 .portfolio-name_section {
@@ -271,9 +268,14 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     }
+
+.container-name-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 
 
@@ -308,6 +310,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .logo-part-footer {
